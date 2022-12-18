@@ -1,0 +1,37 @@
+.menu {
+  background-color: #87bfff;
+  display: flex;
+}
+.menu-column {
+  row-gap: 0.3rem;
+  padding: 1rem 0;
+  flex-flow: column nowrap;
+  align-items: stretch;
+  justify-content: space-between;
+}
+.menu-row {
+  gap: 1rem 1rem;
+  padding: 0 1rem;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu-item {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 0.5rem;
+  font-size: 0.87rem;
+  flex: 1 1 auto;
+  opacity: 1;
+  padding: 0.5rem;
+}
+.menu-item > a {
+  box-sizing: border-box;
+  width: 100%;
+  color: black;
+  text-decoration-line: none;
+}
+.menu-item:hover {
+  background-color: #3f8efc;
+  opacity: 0.7;
+}
